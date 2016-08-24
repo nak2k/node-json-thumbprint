@@ -2,6 +2,12 @@
 
 The thumbprint of a JSON based on [RFC 7638 - JSON Web Key (JWK) Thumbprint](https://tools.ietf.org/html/rfc7638).
 
+## Installation
+
+``` bash
+npm install json-thumbprint -S
+```
+
 ## Example
 
 ``` js
