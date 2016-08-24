@@ -1,0 +1,30 @@
+{
+  "name": "json-thumbprint",
+  "version": "0.0.1",
+  "description": "The thumbprint of a JSON based on the JWK Thumbprint",
+  "author": "Kengo Nakatsuka <kengo.nakatsuka@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/nak2k/node-json-thumbprint/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "^4.6.0"
+  },
+  "homepage": "https://github.com/nak2k/node-json-thumbprint",
+  "keywords": [
+    "json"
+  ],
+  "license": "MIT",
+  "main": "lib",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nak2k/node-json-thumbprint.git"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "files": [
+    "README.md",
+    "lib/"
+  ]
+}
