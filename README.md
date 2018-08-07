@@ -5,13 +5,13 @@ The thumbprint of a JSON based on [RFC 7638 - JSON Web Key (JWK) Thumbprint](htt
 ## Installation
 
 ``` bash
-npm install json-thumbprint -S
+npm install json-thumbprint
 ```
 
 ## Example
 
 ``` js
-import { thumbprint } from 'json-thumbprint';
+const { thumbprint } = require('json-thumbprint');
 
 const json = { x: 1, y: 2 };
 
