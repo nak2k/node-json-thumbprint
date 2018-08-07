@@ -21,6 +21,8 @@
     "url": "git+https://github.com/nak2k/node-json-thumbprint.git"
   },
   "scripts": {
+    "prepublishOnly": "npm test",
+    "postpublish": "npm-sns",
     "test": "tape test/*.js"
   },
   "files": [
